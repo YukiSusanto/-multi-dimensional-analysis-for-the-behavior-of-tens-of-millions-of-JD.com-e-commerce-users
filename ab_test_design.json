@@ -1,0 +1,20 @@
+{
+  "experiment_name": "加购挽单优惠券 A/B Test",
+  "target_population": 1057,
+  "sample_size_per_group": 1301,
+  "alpha": 0.05,
+  "power": 0.8,
+  "mde_absolute": 0.05,
+  "baseline_conversion_rate": 0.6989,
+  "stratification": "K-Means cluster labels",
+  "metrics": {
+    "primary": "cart-to-buy conversion rate",
+    "secondary": [
+      "avg purchase frequency",
+      "avg order value",
+      "day1 retention"
+    ]
+  },
+  "duration_days": 14,
+  "push_time": "20:00 (下单高峰前1小时)"
+}
